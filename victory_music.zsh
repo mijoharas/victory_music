@@ -2,7 +2,7 @@
 BASE_DIR=${0%/*}
 
 MUSIC=($BASE_DIR/music/*.mp3)
-GIFS=($BASE_DIR/gifs/*.gif)
+GIFS=($BASE_DIR/gifs/*)
 
 function randomArgument {
         emulate -RL zsh
